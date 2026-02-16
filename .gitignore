@@ -1,0 +1,18 @@
+# datasets
+*.csv
+*.zip
+*.xlsx
+
+# models
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# python cache
+__pycache__/
+*.pyc
+
+# environments
+myenv/
+.venv/
