@@ -1,0 +1,13 @@
+[ 2026-02-17 10:54:15,213 ] 21 root - INFO - Entered the data ingestion method or component
+[ 2026-02-17 10:54:26,212 ] 27 root - INFO - Read the dataset as dataframe.
+[ 2026-02-17 10:54:59,087 ] 33 root - INFO - Train-test split has been initiated.
+[ 2026-02-17 10:55:33,963 ] 40 root - INFO - Ingestion of the data has been completed.
+[ 2026-02-17 10:55:45,102 ] 96 root - INFO - Read train and test data completed
+[ 2026-02-17 10:55:45,103 ] 98 root - INFO - Obtaining preprocessing object
+[ 2026-02-17 10:55:45,103 ] 57 root - INFO - Defining data transformation pipeline
+[ 2026-02-17 10:55:45,103 ] 104 root - INFO - Upsampling minority class in training data
+[ 2026-02-17 10:55:46,697 ] 122 root - INFO - Upsampled train shape: (1002826, 51)
+[ 2026-02-17 10:55:46,717 ] 130 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2026-02-17 10:55:54,497 ] 143 root - INFO - Saved preprocessing object.
+[ 2026-02-17 10:55:55,025 ] 23 root - INFO - Split training and test input data
+[ 2026-02-17 11:00:30,566 ] 53 root - INFO - Best found model on both training and testing dataset

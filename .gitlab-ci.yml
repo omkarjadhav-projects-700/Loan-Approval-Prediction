@@ -1,0 +1,16 @@
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - echo "Building the application..."
+    - docker build -t loan-approval-app .
+
+test:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - python -m src.pipeline.train_pipeline
