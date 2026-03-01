@@ -54,7 +54,7 @@ Run the application instantly using Docker.
 
 2.  **Run the Container**
     ```bash
-    docker run -p 8501:8501 loan-prediction-app
+    docker run -d -p 8501:8501 loan-prediction-app
     ```
 
     Visit `http://localhost:8501` to use the app.
